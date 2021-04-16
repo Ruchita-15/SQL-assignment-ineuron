@@ -1,0 +1,20 @@
+1. CREATE TABLE customer (
+    customer_id int,
+    first_name varchar2,
+    last_name varchar2,
+    email varchar2,
+    address varchar2,
+    city varchar2,
+    zip  int
+); 
+
+2. INSERT INTO customer VALUES ('1','Suzan', 'Geller', 'suzan12@gmail.com', 'Skagen21', 'Norway', '4006'); 
+INSERT INTO customer VALUES ('2','Monica', 'Bing', 'monhon21@gmail.com', 'Baker Street', 'San Jose', '5006'); 
+INSERT INTO customer VALUES ('3','Glory', 'Bing', 'ggbing@gmail.com', '3rd street', 'San Jose', '5006'); 
+INSERT INTO customer VALUES ('4','Rory', 'Gilmore', 'roryg@gmail.com', 'Hartford', 'New York', '3896'); 
+INSERT INTO customer VALUES ('5','Lorelia', 'Danes', 'loreliadanes@gmail.com', '3rd Lane', 'Stars Hollow', '9006'); 
+
+
+3. select first_name, last_name from customer;
+
+4. select * from customer where upper(first_name) Like 'G%' and upper(city) = 'SAN JOSE';
