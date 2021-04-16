@@ -5,8 +5,7 @@
     email varchar2,
     address varchar2,
     city varchar2,
-    zip  int
-); 
+    zip  int) ;
 
 2. INSERT INTO customer VALUES ('1','Suzan', 'Geller', 'suzan12@gmail.com', 'Skagen21', 'Norway', '4006'); 
 INSERT INTO customer VALUES ('2','Monica', 'Bing', 'monhon21@gmail.com', 'Baker Street', 'San Jose', '5006'); 
