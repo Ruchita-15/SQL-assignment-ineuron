@@ -1,1 +1,1 @@
-# SQL-assignment-ineuron
+# Assignment-ineuron
